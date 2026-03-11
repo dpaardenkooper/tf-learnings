@@ -1,0 +1,4 @@
+resource_group_name = "rg-tf-01"
+location            = "westeurope"
+name_prefix         = "lab01"
+tenant_id           = "00000000-0000-0000-0000-000000000000"
