@@ -6,25 +6,20 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 
 <br>
 
-### What is Terraform
-
-<B>The What, How and the Why</B>
+### What is Terraform - The What, How and the Why
 - [What is Terraform](https://developer.hashicorp.com/terraform/intro)
 - [Why Terraform](https://developer.hashicorp.com/terraform/intro#why-terraform)
 - [How does Terraform work](https://developer.hashicorp.com/terraform/intro)
+- [Terraform cli](https://developer.hashicorp.com/terraform/cli/commands)
 
 <br>
 
-### Positioning
-
-<B>Organisation perspective</B>
+### Positioning - Organisation perspective
 - [Use-cases](https://developer.hashicorp.com/terraform/intro/use-cases)
 
 <br> 
 
-### Deploy Ready
-
-<B>Design decisions</B>
+### Design decisions
 - [Decide storagelocation Terraform State file](https://developer.hashicorp.com/terraform/language/state/remote)
 - [Decide which Terraform Edition to use](https://developer.hashicorp.com/terraform/intro/terraform-editions)
 - [Decide which provider to use](https://developer.hashicorp.com/terraform/language/providers)
@@ -32,14 +27,22 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 <br> 
 
 ### Handson Labs
-
-- []()
-- []()
-- []()
+- [Installation]()
+- [First run]()
+- [Labs]()
 
 <br>
 
-### Next steps
+### Best Practices - Vender perspective
+- [Best practice guide](https://developer.hashicorp.com/terraform/cloud-docs/recommended-practices)
+- [Style guide](https://developer.hashicorp.com/terraform/language/style)
+- [Check frequently Releases](https://github.com/hashicorp/terraform/releases)
+- [Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [vSphere Provider](https://registry.terraform.io/providers/vmware/vsphere/latest)
+
+<br>
+
+### Next Step learning
 
 <B>Terraform</B>
 - [Documentation](https://developer.hashicorp.com/terraform/intro)
@@ -47,7 +50,6 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 - [Study guide](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-review-004)
 - [Exam registration](https://developer.hashicorp.com/certifications/signin)
 
-<br>
 
 <B>HashiCorp Certified Terraform Associate - Zeal Vora</B>
 - [Study course](https://www.udemy.com/course/terraform-beginner-to-advanced)
@@ -58,7 +60,7 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 
 <B>IT-Impressive</B>
 - [Terraform Basics](https://it-impressive.nl/training)
-- [Terraform Next Levl](hhttps://it-impressive.nl/training)
+- [Terraform Next Level](https://it-impressive.nl/training)
 
 <br>
 
