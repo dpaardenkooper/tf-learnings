@@ -7,7 +7,7 @@ Students will learn how to:
 * Authenticate with Azure
 * Initialize Terraform
 * Plan infrastructure changes
-* Deploy a Resource Group and Azure Key Vault
+* Deploy a Azure Key Vault in an existing Resource Group
 
 ---
 
@@ -76,7 +76,7 @@ Confirm by typing:
 yes
 ```
 
-Terraform will now create the resource group and the Key Vault in Azure.
+Terraform will now create a Key Vault in an existing Resource Group in Azure.
 
 
 ## Step 4 — Verify in Azure
@@ -91,13 +91,13 @@ Navigate to:
 Key Vaults
 ```
 
-You should see your newly created Azure Key Vault.
+You should see your newly created Azure Key Vault and ensure all settings are expected.
 
 ---
 
 ## Step 7 — Destroy Resources (Cleanup)
 
-To remove the resource group:
+To remove the Azure Key Vault:
 
 ```bash
 terraform destroy
