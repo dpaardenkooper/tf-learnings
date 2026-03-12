@@ -118,4 +118,4 @@ By completing this exercise students will understand:
 * Terraform configuration files
 * Infrastructure as Code (IaC)
 * Azure authentication
-* Terraform deployment workflow
+* Terraform deployment workflow from a Azure Key Vault
