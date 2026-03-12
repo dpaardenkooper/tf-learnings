@@ -79,7 +79,7 @@ yes
 Terraform will now create a Key Vault in an existing Resource Group in Azure.
 
 
-## Step 4 — Verify in Azure
+## Step 5 — Verify in Azure
 
 Go to the Azure Portal:
 
@@ -95,7 +95,7 @@ You should see your newly created Azure Key Vault and ensure all settings are ex
 
 ---
 
-## Step 7 — Destroy Resources (Cleanup)
+## Step 6 — Destroy Resources (Cleanup)
 
 To remove the Azure Key Vault:
 
