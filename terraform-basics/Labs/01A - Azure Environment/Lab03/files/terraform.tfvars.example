@@ -1,0 +1,5 @@
+resource_group_name = "rg-tf-course-01"
+location            = "westeurope"
+name_prefix         = "lab01"
+admin_username      = "azureuser"
+ssh_public_key_path = ".ssh/tf-lab01.pub"
