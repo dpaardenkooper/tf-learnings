@@ -116,4 +116,4 @@ By completing this exercise students will understand:
 * Terraform configuration files
 * Infrastructure as Code (IaC)
 * Azure authentication
-* Terraform deployment workflow
+* Terraform deployment workflow for an Storage Account
