@@ -39,6 +39,7 @@ NOTE: Ensure to select the correct subscription after login.
 ## Step 2 - Create SSH key
 
 ```bash
+mkdir .ssh
 ssh-keygen -t ed25519 -f .ssh/tf-lab01 -C "tf-lab01" -N ""
 ```
 
