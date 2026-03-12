@@ -1,6 +1,33 @@
-# Lab 2 — Deploy a Key Vault with Terraform
+# Terraform Deploy a Azure Key Vault with Terraform
 
-## 0) Login to Azure
+This project demonstrates how to deploy a **Deploy a Azure Key Vault using Terraform**.
+
+Students will learn how to:
+
+* Authenticate with Azure
+* Initialize Terraform
+* Plan infrastructure changes
+* Deploy a Resource Group and Azure Key Vault
+
+---
+
+## Prerequisites
+
+Before starting, make sure you have installed:
+
+* Terraform
+* Azure CLI
+
+Verify the installations:
+
+```bash
+terraform -version
+az --version
+```
+
+---
+
+## Step 1 — Login to Azure
 
 ```bash
 az login --use-device-code
@@ -9,7 +36,10 @@ az account show
 
 NOTE: Ensure to select the correct subscription after login.
 
-## 1) Prepare variables
+
+## Step 2 — Prepare variables
+
+git clone this repo.
 
 ```bash
 cp terraform.tfvars.example terraform.tfvars
@@ -17,22 +47,75 @@ cp terraform.tfvars.example terraform.tfvars
 
 Edit terraform.tfvars and set your assigned resource group.
 
-## 2) Terraform workflow
+
+## Step 3 — Initialize Terraform
+
+Navigate to the project folder and run:
 
 ```bash
 terraform init
+```
+
+Terraform will download the required Azure provider.
+
+---
+
+
+## Step 4 — Terraform workflow and deploy Azure Key Vault
+
+```bash
 terraform fmt
 terraform validate
 terraform plan -out tfplan
 terraform apply tfplan
 ```
 
-## 3) Check the Key Vault in the Azure Portal
+Confirm by typing:
 
-1) Go to the Key Vault in the Azure Portal and ensure all settings are expected
+```
+yes
+```
 
-## 4) Cleanup
+Terraform will now create the resource group and the Key Vault in Azure.
+
+
+## Step 4 — Verify in Azure
+
+Go to the Azure Portal:
+
+https://portal.azure.com
+
+Navigate to:
+
+```
+Key Vaults
+```
+
+You should see your newly created Azure Key Vault.
+
+---
+
+## Step 7 — Destroy Resources (Cleanup)
+
+To remove the resource group:
 
 ```bash
 terraform destroy
 ```
+
+Confirm with:
+
+```
+yes
+```
+
+---
+
+# Learning Objectives
+
+By completing this exercise students will understand:
+
+* Terraform configuration files
+* Infrastructure as Code (IaC)
+* Azure authentication
+* Terraform deployment workflow
