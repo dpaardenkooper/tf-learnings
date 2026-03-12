@@ -11,7 +11,7 @@ Students will learn how to:
 
 ---
 
-# Prerequisites
+## Prerequisites
 
 Before starting, make sure you have installed:
 
@@ -27,7 +27,7 @@ az --version
 
 ---
 
-# Step 1 — Login to Azure
+## Step 1 — Login to Azure
 
 Authenticate with your Azure account.
 
@@ -49,9 +49,11 @@ To list available subscriptions:
 az account list --output table
 ```
 
+NOTE: Ensure to select the correct subscription after login.
+
 ---
 
-# Step 2 — Project Files
+## Step 2 — Project Files
 
 This project uses several Terraform files.
 
@@ -63,9 +65,19 @@ This project uses several Terraform files.
 | main.tf          | Creates the Azure resource group |
 | outputs.tf       | Displays useful output           |
 
+
+NOTE: If you clone this repo
+
+```bash
+cp terraform.tfvars.example terraform.tfvars
+```
+
+Edit terraform.tfvars and set your assigned resource group.
+
+
 ---
 
-# Step 3 — Initialize Terraform
+## Step 3 — Initialize Terraform
 
 Navigate to the project folder and run:
 
@@ -77,7 +89,7 @@ Terraform will download the required Azure provider.
 
 ---
 
-# Step 4 — Review the Deployment Plan
+## Step 4 — Review the Deployment Plan
 
 Run:
 
@@ -95,7 +107,7 @@ Plan: 1 to add, 0 to change, 0 to destroy
 
 ---
 
-# Step 5 — Deploy the Resource Group
+## Step 5 — Deploy the Resource Group
 
 Apply the deployment:
 
@@ -113,7 +125,7 @@ Terraform will now create the resource group in Azure.
 
 ---
 
-# Step 6 — Verify in Azure
+## Step 6 — Verify in Azure
 
 Go to the Azure Portal:
 
@@ -129,7 +141,7 @@ You should see your newly created resource group.
 
 ---
 
-# Step 7 — Destroy Resources (Cleanup)
+## Step 7 — Destroy Resources (Cleanup)
 
 To remove the resource group:
 
@@ -141,17 +153,6 @@ Confirm with:
 
 ```
 yes
-```
-
----
-
-# Terraform Workflow Summary
-
-```
-terraform init
-terraform plan
-terraform apply
-terraform destroy
 ```
 
 ---
