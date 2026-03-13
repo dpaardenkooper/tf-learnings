@@ -34,9 +34,11 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 - [Linux](https://github.com/dpaardenkooper/tf-learnings/tree/main/terraform-basics/Labs/00%20-%20Client-Install/Linux/Install.md)
 - [MacOS](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/00%20-%20Client-Install/MacOs/Install.md)
 - [Windows](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/00%20-%20Client-Install/Windows/Install.md)
+- [Optional - VS Code Terraform extension](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 
 <B>Microsoft Azure</B>
 - [Azure Provider documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [GitHub Repo - bug reporting](https://github.com/hashicorp/terraform-provider-azurerm/issues)
 - [Lab00 - Create Resource Group](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab00/README.md)
 - [Lab01 - Create Azure Key Vault](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab01/README.md)
 - [Lab02 - Create Azure Storage Account](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab02/files/README.md)
@@ -44,6 +46,7 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 
 <B>vSphere</B>
 - [vSphere Provider](https://registry.terraform.io/providers/vmware/vsphere/latest)
+- [GitHub Repo - bug reporting](https://github.com/vmware/terraform-provider-vsphere/issues)
 
 ---
 
