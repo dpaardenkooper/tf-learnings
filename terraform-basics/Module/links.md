@@ -1,10 +1,16 @@
 # Terraform Basics
+
+Students will learn how to:
+
+* Authenticate with Azure
+* Initialize Terraform
+* Plan infrastructure changes
+* Deploy a VM 
+
 Links that where shared during the course:
 
 ## Course Syllabus
 https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-review-004
-
-<br>
 
 ### What is Terraform - The What, How and the Why
 - [What is Terraform](https://developer.hashicorp.com/terraform/intro)
@@ -12,35 +18,41 @@ https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-
 - [How does Terraform work](https://developer.hashicorp.com/terraform/intro)
 - [Terraform cli](https://developer.hashicorp.com/terraform/cli/commands)
 
-<br>
-
 ### Positioning - Organisation perspective
 - [Use-cases](https://developer.hashicorp.com/terraform/intro/use-cases)
-
-<br> 
 
 ### Design decisions
 - [Decide storagelocation Terraform State file](https://developer.hashicorp.com/terraform/language/state/remote)
 - [Decide which Terraform Edition to use](https://developer.hashicorp.com/terraform/intro/terraform-editions)
 - [Decide which provider to use](https://developer.hashicorp.com/terraform/language/providers)
 
-<br> 
+---
 
 ### Handson Labs
-- [Installation]()
-- [First run]()
-- [Labs]()
 
-<br>
+<B>Client install</B>
+- [Linux](https://github.com/dpaardenkooper/tf-learnings/tree/main/terraform-basics/Labs/00%20-%20Client-Install/Linux/Install.md)
+- [MacOS](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/00%20-%20Client-Install/MacOs/Install.md)
+- [Windows](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/00%20-%20Client-Install/Windows/Install.md)
+
+<B>Microsoft Azure</B>
+- [Azure Provider documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [Lab00 - Create Resource Group](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab00/README.md)
+- [Lab01 - Create Azure Key Vault](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab01/README.md)
+- [Lab02 - Create Azure Storage Account](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab02/files/README.md)
+- [Lab03 - Create Azure Virtual Machine](https://github.com/dpaardenkooper/tf-learnings/blob/main/terraform-basics/Labs/01A%20-%20Azure%20Environment/Lab03/README.md)
+
+<B>vSphere</B>
+- [vSphere Provider](https://registry.terraform.io/providers/vmware/vsphere/latest)
+
+---
 
 ### Best Practices - Vender perspective
 - [Best practice guide](https://developer.hashicorp.com/terraform/cloud-docs/recommended-practices)
 - [Style guide](https://developer.hashicorp.com/terraform/language/style)
 - [Check frequently Releases](https://github.com/hashicorp/terraform/releases)
-- [Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
-- [vSphere Provider](https://registry.terraform.io/providers/vmware/vsphere/latest)
 
-<br>
+---
 
 ### Next Step learning
 
