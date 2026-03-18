@@ -1,0 +1,9 @@
+resource_group_name = "rg-tf-01"
+location            = "westeurope"
+environment         = "dev"
+name_prefix         = "lab04"
+
+deployment_model_name    = "gpt-4o"
+deployment_model_version = "2024-11-20"
+deployment_sku_name      = "GlobalStandard"
+deployment_capacity      = 1
