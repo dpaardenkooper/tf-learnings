@@ -63,8 +63,8 @@ terraform workspace select dev
 terraform init
 terraform fmt
 terraform validate
-terraform plan -var-file=environments/dev.tfvars
-terraform apply -var-file=environments/dev.tfvars
+terraform plan -var-file="environments/dev.tfvars"
+terraform apply -var-file="environments/dev.tfvars"
 ```
 
 Confirm with:
@@ -80,8 +80,8 @@ terraform workspace select test
 terraform init
 terraform fmt
 terraform validate
-terraform plan -var-file=environments/test.tfvars
-terraform apply -var-file=environments/test.tfvars
+terraform plan -var-file="environments/test.tfvars"
+terraform apply -var-file="environments/test.tfvars"
 ```
 
 Confirm with:
@@ -97,8 +97,8 @@ terraform workspace select prod
 terraform init
 terraform fmt
 terraform validate
-terraform plan -var-file=environments/prod.tfvars
-terraform apply -var-file=environments/prod.tfvars
+terraform plan -var-file="environments/prod.tfvars"
+terraform apply -var-file="environments/prod.tfvars"
 ```
 
 Confirm with:
@@ -119,7 +119,7 @@ yes
 
 ```bash
 terraform workspace select dev
-terraform destroy -var-file=environments/dev.tfvars
+terraform destroy -var-file="environments/dev.tfvars"
 ```
 
 Confirm with:
@@ -132,7 +132,7 @@ yes
 
 ```bash
 terraform workspace select test
-terraform destroy -var-file=environments/test.tfvars
+terraform destroy -var-file="environments/test.tfvars"
 ```
 
 Confirm with:
@@ -145,7 +145,7 @@ yes
 
 ```bash
 terraform workspace select prod
-terraform destroy -var-file=environments/prod.tfvars
+terraform destroy -var-file="environments/prod.tfvars"
 ```
 
 Confirm with:
@@ -163,5 +163,5 @@ By completing this exercise students will understand:
 * Terraform configuration files
 * Terraform Workspaces
 * Infrastructure as Code (IaC)
-* Learning to use Modules confirm DRY (Don't repeat yourself)
+* Learning to use Modules confirm DRY (Don't Repeat Yourself)
 * Selective Terraform deployment based on Terraform Modules
