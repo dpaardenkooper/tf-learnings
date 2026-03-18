@@ -1,4 +1,4 @@
 resource_group_name = "rg-tf-course-01"
 location            = "westeurope"
 name_prefix         = "lab01"
-tenant_id           = "00000000-0000-0000-0000-000000000000"
+tenant_id           = "3b4d628e-71dc-4bab-93cd-9f4e54a25ffe"
