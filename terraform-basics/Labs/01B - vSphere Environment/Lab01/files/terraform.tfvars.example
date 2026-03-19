@@ -1,0 +1,15 @@
+vsphere_user     = "<Username>"
+vsphere_password = "<Password>"
+vsphere_server   = "<IP Address>"
+ 
+datacenter      = "<Datacenter>"
+cluster         = "<Cluster>"
+
+vm_folder       = "Training"
+
+
+
+
+
+
+
