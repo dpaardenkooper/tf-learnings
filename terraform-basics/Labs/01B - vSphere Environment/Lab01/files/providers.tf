@@ -1,6 +1,6 @@
 terraform {
   required_version = ">= 1.5.0"
- 
+
   required_providers {
     vsphere = {
       source  = "hashicorp/vsphere"
@@ -8,7 +8,7 @@ terraform {
     }
   }
 }
- 
+
 provider "vsphere" {
   user                 = var.vsphere_user
   password             = var.vsphere_password
