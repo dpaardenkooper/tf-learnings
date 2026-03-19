@@ -61,7 +61,7 @@ variable "vm_ip_address" {
 
 variable "vm_ip_netmask" {
   description = "IP subnetmask of the server"
-  type = integer
+  type = number
 }
 
 variable "vm_ip_gateway" {

@@ -1,5 +1,5 @@
 output "vm_name" {
-  value = vsphere_virtual_machine.vm.name
+  value = vsphere_virtual_machine.vm_name
 }
 
 output "vm_ip" {
@@ -7,5 +7,5 @@ output "vm_ip" {
 }
 
 output "connect_howto" {
-  value = "vCenter Portal -> Virtual Machines -> ${azurerm_linux_virtual_machine.vm.name} -> Connect"
+  value = "vCenter Portal -> Virtual Machines -> ${vsphere_virtual_machine.vm_name} -> Connect"
 }
