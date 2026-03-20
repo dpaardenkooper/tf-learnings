@@ -4,7 +4,7 @@ This project demonstrates how to deploy a **Deploy a vSphere Folder with Terrafo
 
 Students will learn how to:
 
-* Authenticate with Azure
+* Authenticate with Active Directory
 * Initialize Terraform
 * Plan infrastructure changes
 * Deploy a vSphere Folder in vCenter
@@ -25,7 +25,7 @@ terraform -version
 
 ---
 
-## Step 1 — Create a vCenter Service account which have the following permissions
+## Step 1 — Create a vCenter Service account in Active Directory which have the following permissions
 
 For more information, click [here](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs)
 
@@ -105,5 +105,5 @@ By completing this exercise students will understand:
 
 * Terraform configuration files
 * Infrastructure as Code (IaC)
-* Azure authentication
+* Active Directory authentication
 * Terraform deployment workflow from a vSphere folder
