@@ -1,13 +1,13 @@
-# Terraform Deploy a Azure Key Vault with Terraform
+# Deploy a vSphere Folder with Terraform in vCenter
 
-This project demonstrates how to deploy a **Deploy a Azure Key Vault using Terraform**.
+This project demonstrates how to deploy a **Deploy a vSphere Folder with Terraform in vCenter**.
 
 Students will learn how to:
 
 * Authenticate with Azure
 * Initialize Terraform
 * Plan infrastructure changes
-* Deploy a Azure Key Vault in an existing Resource Group
+* Deploy a vSphere Folder in vCenter
 
 ---
 
@@ -16,26 +16,18 @@ Students will learn how to:
 Before starting, make sure you have installed:
 
 * Terraform
-* Azure CLI
 
 Verify the installations:
 
 ```bash
 terraform -version
-az --version
 ```
 
 ---
 
-## Step 1 — Login to Azure
+## Step 1 — Create a vCenter Service account which have the following permissions
 
-```bash
-az login --use-device-code
-az account show
-```
-
-NOTE: Ensure to select the correct subscription after login.
-
+For more information, click [here](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs)
 
 ## Step 2 — Prepare variables
 
@@ -45,7 +37,7 @@ git clone this repo.
 cp terraform.tfvars.example terraform.tfvars
 ```
 
-Edit terraform.tfvars and set your assigned resource group.
+Edit terraform.tfvars and set your assigned vSphere folder.
 
 
 ## Step 3 — Initialize Terraform
@@ -56,12 +48,12 @@ Navigate to the project folder and run:
 terraform init
 ```
 
-Terraform will download the required Azure provider.
+Terraform will download the required vSphere provider.
 
 ---
 
 
-## Step 4 — Terraform workflow and deploy Azure Key Vault
+## Step 4 — Terraform workflow and deploy vSphere folder
 
 ```bash
 terraform fmt
@@ -76,28 +68,24 @@ Confirm by typing:
 yes
 ```
 
-Terraform will now create a Key Vault in an existing Resource Group in Azure.
+Terraform will now create a vSphere folder in the existing vCenter server, under DataCenter.
 
 
-## Step 5 — Verify in Azure
+## Step 5 — Verify in vCenter
 
-Go to the Azure Portal:
+Go to the vCenter
 
-https://portal.azure.com
-
-Navigate to:
+Navigate to DataCenter and check if you see the corresponding folder:
 
 ```
-Key Vaults
+Training
 ```
-
-You should see your newly created Azure Key Vault and ensure all settings are expected.
 
 ---
 
 ## Step 6 — Destroy Resources (Cleanup)
 
-To remove the Azure Key Vault:
+To remove the vSphere Folder:
 
 ```bash
 terraform destroy
@@ -118,4 +106,4 @@ By completing this exercise students will understand:
 * Terraform configuration files
 * Infrastructure as Code (IaC)
 * Azure authentication
-* Terraform deployment workflow from a Azure Key Vault
+* Terraform deployment workflow from a vSphere folder
