@@ -26,7 +26,7 @@ az --version
 
 ---
 
-## Step 1 — Create a vCenter Service account which have the following permissions
+## Step 1 — Create a vCenter Service account in Active Directory which have the following permissions
 
 For more information, click [here](https://registry.terraform.io/providers/hashicorp/vsphere/latest/docs)
 
