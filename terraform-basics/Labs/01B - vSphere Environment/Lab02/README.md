@@ -53,7 +53,7 @@ Terraform will download the required vSphere provider.
 
 ---
 
-## Step 5 - Terraform workflow and deploy VM with Linux
+## Step 4 - Terraform workflow and deploy VM with Linux
 
 ```bash
 terraform fmt
