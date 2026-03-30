@@ -1,0 +1,18 @@
+vsphere_user     = "<Username>"
+vsphere_password = "<Password>"
+vsphere_server   = "<vSphere Hostname>"
+ 
+datacenter_name  = "<Datacenter Name>"
+cluster_name     = "<Cluster Name>"
+datastore_name   = "<Datastore Name>"
+network_name     = "<VM Network Name>"
+
+vm_name         = "<VM Name>"
+vm_domain       = "<Domain Name>"
+vm_folder       = "<Folder>"
+
+vm_template_name   = "<Template>"
+
+vm_ipv4_address = "<IPv4 Address>"
+vm_ipv4_netmask = "<IPv4 Netmask>"
+vm_ipv4_gateway = "<IPv4 Address>"
