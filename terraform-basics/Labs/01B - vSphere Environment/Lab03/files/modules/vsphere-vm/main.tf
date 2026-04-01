@@ -75,6 +75,4 @@ resource "vsphere_virtual_machine" "this" {
       ipv4_gateway = var.ipv4_gateway
     }
   }
-
-  wait_for_guest_net_timeout = 0
 }

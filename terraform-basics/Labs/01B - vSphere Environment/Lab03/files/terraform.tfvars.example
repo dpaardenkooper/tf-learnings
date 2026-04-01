@@ -7,11 +7,13 @@ cluster_name     = "<Cluster Name>"
 datastore_name   = "<Datastore Name>"
 network_name     = "<VM Network Name>"
 
+vm_folder       = "<VM Folder Name>
 vm_name         = "<VM Name>"
 vm_domain       = "<Domain Name>"
-vm_folder       = "<Folder>"
-
 vm_template_name   = "<Template>"
+
+vm_num_cpus = 2
+vm_memory = 4096
 
 vm_ipv4_address = "<IPv4 Address>"
 vm_ipv4_netmask = "<IPv4 Netmask>"
